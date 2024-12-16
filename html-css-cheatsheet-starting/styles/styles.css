@@ -1,0 +1,143 @@
+body{
+    margin: 0 auto;
+    width: 90%;
+   background-color: #faebd760;
+   font-family: roboto;
+}
+
+main{
+    background-color: #faebd79d;
+    padding: 1.3rem;
+}
+
+
+
+header h1{
+    text-align: center;
+    margin: 1.2rem
+}
+
+#navbar ul{
+    text-align: center;
+    list-style: none;
+    border: 1px solid black;
+    margin: 2rem;
+}
+
+ul li{
+    text-align: center;
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #f5f5a5;
+    padding: 0.3rem;
+}
+
+.intro{
+    margin: 1rem;
+    display: inline-block;
+    background-color: #f5f5a5;
+    padding: 0.3rem;
+}
+
+
+#intro{
+    line-height: 1.5rem;
+    
+}
+
+#intro-span{
+    font-size: larger;
+    padding: 0.3rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#color-span{
+    color: rgb(204, 160, 17);
+    font-size: larger;
+    background-color: #cca0112c;
+    padding: 0.3rem;
+    font-style: italic;
+    border: 1px solid #cca01118;
+}
+
+#typography-span{
+    color: #008d13;
+    font-size: larger;
+    background-color: #008d133f;
+    padding: 0.3rem;
+    font-style: italic;
+    border: 1px solid #008d1321;
+}
+
+#tables-span{
+    color: #02008d56;
+    font-size: larger;
+    background-color: #02008d56;
+    padding: 0.3rem;
+    font-style: italic;
+    border: 1px solid #02008d1e;
+}
+
+.color-cheat{
+    margin: 1rem;
+    display: inline-block;
+    background-color: #dbf79bee;
+    padding: 0.3rem;
+}
+
+#table-heading{
+    margin: 1rem;
+    display: inline-block;
+    background-color: #f5e76bd7; 
+    padding: 0.3rem;
+}
+
+table, tbody, thead, th, td, tr{
+border: 2px solid black;
+padding: 1rem;
+
+}
+
+#color p{
+    margin: 1rem;
+}
+
+
+.typography-cheat{
+    margin: 1rem;
+    display: inline-block;
+    background-color: #00c3dd73;
+    padding: 0.3rem;
+}
+
+#typography p{
+    margin: 1rem;
+}
+
+.table-cheat{
+    margin: 1rem;
+    display: inline-block;
+    background-color: #0004dd73;
+    padding: 0.3rem;
+}
+
+#tables p{
+    margin: 1rem;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; 
+  }

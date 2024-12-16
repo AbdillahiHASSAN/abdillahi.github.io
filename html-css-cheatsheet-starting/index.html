@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cheat Sheet</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        
+
+        
+
+        <main>
+            <header>
+                <h1>My Cheat Sheet</h1>
+                <nav id="navbar">
+                    <ul>
+                        <a href="#color"><li>Color</li></a>
+                        <a href="#typography"><li>Typography</li></a>
+                        <a href="#tables"><li>Tables</li></a>
+                    </ul>
+                </nav>
+            </header>
+                <!--Intro Section-->
+            <section class="introduction">
+                    <h2 class="intro">Introduction</h2>
+                    <p id="intro"><span id="intro-span">Welcome to my cheat sheet!</span>I will tackle three topics that I find tricky: <a href="#color"><span id="color-span">Colors</span></a>, <a href="#typography"><span id="typography-span">Typography</span></a> and <a href="#tables"><span id="tables-span">Tables</span></a>. The reason I chose these topics is that they are challenging for me, and rewriting them along with conducting research helps reinforce my understanding and solidify the concepts in my mind.</p>
+            </section>
+        
+                <!--Color Section-->
+        
+            <section id="color">
+                    <h2 class="color-cheat">Color in HTML and CSS</h2>
+                    <article>
+                        <p class="color-intro">
+                            Colors are a fundamental part of web design, used to enhance visual appeal and convey meaning.
+                        </p>
+                        <p>In HTML, colors can be applied using inline styles or through attributes like <code>bgcolor</code>.</p>
+                        <p>In CSS, colors are styled using the <code>color</code>  property (for text) and <code>background-color</code> property (for backgrounds).</p>
+                        
+                    </article>
+                    <h2 id="table-heading">Ways to Specify Colors in CSS</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Example</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Named Colors</td>
+                                <td><code id="color-red">red</code>, <code id="color-blue">blue</code>, <code id="color-green">green</code></td>
+                                <td>Predefined color names available in CSS.</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Hexadecimal Codes</td>
+                                <td><code>#FF5733</code></td>
+                                <td>A six-digit code representing red, green, and blue values.</td>
+                            </tr>
+        
+                            <tr>
+                                <td>RGB and RGBA</td>
+                                <td><code>rgb(255, 87, 51)</code> / <code>rgba(255, 87, 51, 0.5)</code></td>
+                                <td>Specifies red, green, and blue values, with optional alpha transparency.</td>
+                            </tr>
+        
+                            <tr>
+                                <td>HSL and HSLA</td>
+                                <td><code>hsl(12, 100%, 60%)</code> / <code>hsla(12, 100%, 60%, 0.5)</code></td>
+                                <td>Defines color using hue, saturation, lightness, and optional alpha transparency.</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <p>Colors bring life to your web pages, but they should be chosen carefully to ensure accessibility and good contrast!</p>
+            </section>
+            <!--Typography Section-->
+
+            <section id="typography">
+                <h1 class="typography-cheat">Typography in HTML and CSS</h1>
+                <article>
+                    <p>
+                        Typography refers to the art of arranging text to make it readable and visually appealing. It focuses on styling elements like font choice, size, spacing, and alignment, which play a key role in effective web design
+                    </p>
+                </article>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>property</th>
+                            <th>Description</th>
+                            <th>Examples values</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Font Family</td>
+                            <td>Determines the style of the text.</td>
+                            <td>Serif, Sans-serif</td>
+                        </tr>
+                        <tr>
+                            <td>Font Size</td>
+                            <td>Specifies how large or small the text appears.</td>
+                            <td>Small, Medium, Large</td>
+                        </tr>
+                        <tr>
+                            <td>Font Weight</td>
+                            <td>Controls the thickness or boldness of the text.</td>
+                            <td>Light, Regular, Bold</td>
+                        </tr>
+                        <tr>
+                            <td>Line Height</td>
+                            <td>Adjusts the spacing between lines of text.</td>
+                            <td>Tight, Normal, Relaxed</td>
+                        </tr>
+                        <tr>
+                            <td>Text Alignment</td>
+                            <td>Aligns the text within its container.</td>
+                            <td>Left, Center, Justified</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Typography is crucial in web design as it helps create a hierarchy of information, improves readability, and enhances the overall look of a webpage.</p>
+            </section>
+            
+            <!--Tables Section-->
+
+            <section id="tables">
+                <h1 class="table-cheat">Tables in HTML and CSS</h1>
+                <article>
+                    <p>Tables are used to display data in a structured format, organized into rows and columns. They are essential for presenting data like pricing, schedules, or comparisons in a clear and concise manner.</p>
+                </article>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                            <th>Example Use</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Table</td>
+                            <td>The overall structure that contains all data.</td>
+                            <td>Organizes content systematically.</td>
+                        </tr>
+                        <tr>
+                            <td>Row</td>
+                            <td>A horizontal group of data cells.</td>
+                            <td>Represents a single line of data.</td>
+                        </tr>
+                        <tr>
+                            <td>Header</td>
+                            <td>Highlights key labels for each column.</td>
+                            <td>Used for titles or descriptions.</td>
+                        </tr>
+                        <tr>
+                            <td>Data Cell</td>
+                            <td>Displays individual pieces of data.</td>
+                            <td>Contains text, numbers, or symbols.</td>
+                        </tr>
+                        <tr>
+                            <td>Caption</td>
+                            <td>Provides a title or summary for the table.</td>
+                            <td>Explains the table’s content.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Tables are a powerful tool for structuring information but should be used only when presenting tabular data. For layout purposes, modern CSS techniques are preferred for flexibility and responsiveness.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>By: Abdillahi HASSAN</p>
+        </footer>
+      
+    </body>
+</html>
